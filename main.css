@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(247, 239, 230);
+    padding: 70px;
+  
+}
+h1{
+    color: rgb(119, 25, 107);
+    text-align: center;
+    margin-bottom:70px ;
+}
+
+.Properties{
+    width:100%;
+    color:rgb(78, 32, 78) ;
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+ gap:70px;
+   
+
+}
+.Properties1{
+    width:calc((100% - 200px) / 3);
+ text-align: center;
+align-items: center;
+    display: flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+
+border-radius:50px;
+border-color: rgb(100, 4, 44);
+border-radius:25px;
+border-style:double;
+background-color: rgb(207, 208, 211);
+    
+}
+a{
+    text-decoration-line: none;
+    color:rgb(78, 32, 78) ;
+    padding: 20px;
+    background-color: rgba(114, 106, 106, 0.233);
+    border-color: rgb(100, 4, 44);
+       border-radius:50px;
+border-style:double;
+margin-bottom: 20px;
+}
+.Properties img{
+  
+    width:100px;
+    height:100px;
+    border-color: rgb(100, 4, 44);
+border-radius:50px;
+border-style:double;
+display: block;
+
+}
+
+.product{
+    border: 3px;
+    border-color: rgb(100, 4, 44);
+    border-radius:25px;
+    border-style:double;
+    width: 700px;
+    background-color: rgb(208, 212, 212);
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(100, 4, 44);
+  
+}
+.body1 p{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.body1 p span{
+    color: black;
+    font-style:oblique;
+}
+.axiosoverview{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+    border-color: rgb(100, 4, 44);
+    background-color: rgba(114, 106, 106, 0.233);
+    border-radius:15px;
+    border-style:double;
+    width:300px;
+    height:50px;
+    padding: 40px;
+    margin-bottom: 70px;
+   
+    
+}
+.axiosoverview span {
+padding-bottom: 23px;
+color: black;
+    font-style:oblique;
+    font-weight: 700;
+    font-size: 22px;
+}
+.axiosoverview a{
+    text-decoration-line: none;
+    color:rgb(78, 32, 78) ;
+    padding: 10px 40px ;
+    background-color: rgba(114, 106, 106, 0.233);
+    border-color: rgb(100, 4, 44);
+       border-radius:15px;
+border-style:double;
+
+font-weight: 700;
+font-size: 20px;
+}
+.axioss{
+    background-color: rgb(247, 239, 230);
+    padding: 70px;
+    border-color: rgb(100, 4, 44);
+    border-radius:15px;
+border-style:double;
+font-weight: 700;
+font-size: 20px;
+}
